@@ -4,8 +4,8 @@
   "description": "",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/binary-search.js",
-    "dev": "concurrently \"tsc -w\" \"nodemon dist/binary-search.js\""
+    "binary-search": "node dist/binary-search.js",
+    "binary-search:dev": "concurrently \"tsc -w\" \"nodemon dist/binary-search.js\""
   },
   "author": "",
   "license": "ISC",
