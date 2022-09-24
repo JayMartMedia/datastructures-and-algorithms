@@ -2,10 +2,16 @@
   "name": "typescript-ds-algo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/binary-search.js",
+    "dev": "concurrently \"tsc -w\" \"nodemon dist/binary-search.js\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.4.0",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.3"
+  }
 }
