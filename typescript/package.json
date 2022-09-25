@@ -5,7 +5,9 @@
   "scripts": {
     "build": "tsc",
     "binary-search": "node dist/binary-search.js",
-    "binary-search:dev": "concurrently \"tsc -w\" \"nodemon dist/binary-search.js\""
+    "binary-search:dev": "concurrently \"tsc -w\" \"nodemon dist/binary-search.js\"",
+    "product-array-excluding-self": "node dist/product-array-excluding-self.js",
+    "product-array-excluding-self:dev": "concurrently \"tsc -w\" \"nodemon dist/product-array-excluding-self.js\""
   },
   "author": "",
   "license": "ISC",
